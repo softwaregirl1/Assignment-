@@ -1,0 +1,21 @@
+# Declare variables with different data types
+
+a = 10          # Integer
+b = 20.5        # Float
+c = "Hello"     # String
+d = True        # Boolean
+e = [1, 2, 3]   # List
+
+# Compare the data types
+
+print(type(a) == type(b))
+print(type(a) != type(c))
+print(type(a) == type(d))
+print(type(a) != type(e))
+
+# Using comparison operators
+
+print(a == b)
+print(a != b)
+print(a < b)
+print(a > b)
