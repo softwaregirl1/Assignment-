@@ -1,21 +1,13 @@
-# Declare variables with different data types
+#create first variable
+age = 19
 
-a = 10          # Integer
-b = 20.5        # Float
-c = "Hello"     # String
-d = True        # Boolean
-e = [1, 2, 3]   # List
 
-# Compare the data types
+username = "Nerat"        
+height = 5.7                 
+is_student = False           
+likes = ["food", "python"]    
 
-print(type(a) == type(b))
-print(type(a) != type(c))
-print(type(a) == type(d))
-print(type(a) != type(e))
-
-# Using comparison operators
-
-print(a == b)
-print(a != b)
-print(a < b)
-print(a > b)
+print(type(age) == type(username))     
+print(type(age) != type(height))       
+print(type(age) is type(is_student))   
+print(type(age) is not type(likes)) 
